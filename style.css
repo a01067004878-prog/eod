@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.board {
+    width: 330px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+}
+
+.hole {
+    width: 100px;
+    height: 100px;
+    background: brown;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mole {
+    background: url("https://cdn-icons-png.flaticon.com/512/616/616430.png")
+                center/70% no-repeat brown;
+}
